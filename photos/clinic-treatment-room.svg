@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs><linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef3f1"/><stop offset="1" stop-color="#c6dbd6"/></linearGradient></defs>
+  <rect width="1200" height="900" fill="url(#wall)"/>
+  <rect x="0" y="700" width="1200" height="200" fill="#dfe6e3"/>
+  <!-- overhead lamp -->
+  <path d="M760 0 V120 Q760 160 700 180" fill="none" stroke="#173b38" stroke-width="10"/>
+  <ellipse cx="660" cy="200" rx="90" ry="40" fill="#ffffff" stroke="#173b38" stroke-width="6"/>
+  <path d="M600 230 L520 520 L800 520 L720 230 Z" fill="#fff6d6" opacity="0.5"/>
+  <!-- dental chair -->
+  <path d="M330 470 Q330 430 370 430 L660 470 Q700 476 700 520 L700 560 L360 560 Q330 560 330 530 Z" fill="#2f6f6a" stroke="#173b38" stroke-width="5"/>
+  <path d="M300 300 Q290 260 330 250 L370 260 Q400 270 395 310 L380 450 L330 450 Z" fill="#2f6f6a" stroke="#173b38" stroke-width="5"/>
+  <rect x="295" y="215" width="80" height="45" rx="20" fill="#2f6f6a" stroke="#173b38" stroke-width="5"/>
+  <path d="M700 520 L800 600 L830 590" fill="none" stroke="#2f6f6a" stroke-width="40" stroke-linecap="round"/>
+  <rect x="470" y="560" width="70" height="120" fill="#b8c4c3" stroke="#173b38" stroke-width="5"/>
+  <ellipse cx="505" cy="700" rx="150" ry="22" fill="#b8c4c3" stroke="#173b38" stroke-width="5"/>
+  <!-- instrument arm + tray -->
+  <path d="M880 700 V420 L760 400" fill="none" stroke="#173b38" stroke-width="10"/>
+  <rect x="690" y="370" width="150" height="40" rx="10" fill="#ffffff" stroke="#173b38" stroke-width="5"/>
+  <g stroke="#173b38" stroke-width="4"><path d="M710 385 H760 M710 397 H780 M790 385 H825"/></g>
+  <!-- cabinet + monitor -->
+  <rect x="960" y="480" width="200" height="220" rx="12" fill="#ffffff" stroke="#173b38" stroke-width="5"/>
+  <path d="M960 590 H1160 M1060 480 V700" stroke="#173b38" stroke-width="4"/>
+  <rect x="980" y="300" width="160" height="110" rx="10" fill="#173b38"/>
+  <rect x="995" y="315" width="130" height="80" rx="4" fill="#9fc2bc"/>
+  <g transform="translate(1040 322) scale(0.12)"><path fill="#ffffff" d="M200 40 C140 0 60 10 40 90 C20 170 50 230 80 290 C100 340 100 420 120 460 C135 490 165 480 170 440 C178 390 185 350 200 350 C215 350 222 390 230 440 C235 480 265 490 280 460 C300 420 300 340 320 290 C350 230 380 170 360 90 C340 10 260 0 200 40 Z"/></g>
+</svg>

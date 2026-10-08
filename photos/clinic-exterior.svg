@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe3df"/><stop offset="1" stop-color="#f4f1ec"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e7ece9"/></linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <g fill="#ffffff" opacity="0.8"><ellipse cx="220" cy="140" rx="110" ry="34"/><ellipse cx="960" cy="110" rx="140" ry="40"/></g>
+  <!-- hills -->
+  <path d="M0 520 Q200 380 420 470 T860 430 T1200 470 V900 H0 Z" fill="#a9c8c2" opacity="0.6"/>
+  <!-- building -->
+  <rect x="300" y="250" width="600" height="520" rx="10" fill="url(#wall)" stroke="#173b38" stroke-width="5"/>
+  <rect x="280" y="236" width="640" height="26" rx="6" fill="#173b38"/>
+  <rect x="300" y="480" width="600" height="16" fill="#2f6f6a"/>
+  <!-- upper windows + balcony -->
+  <g fill="#bcd6d1" stroke="#173b38" stroke-width="4">
+    <rect x="350" y="300" width="140" height="130" rx="8"/><rect x="530" y="300" width="140" height="130" rx="8"/><rect x="710" y="300" width="140" height="130" rx="8"/>
+  </g>
+  <path d="M330 440 H870" stroke="#173b38" stroke-width="5"/>
+  <g stroke="#173b38" stroke-width="3">
+    <path d="M350 440 V470 M390 440 V470 M430 440 V470 M470 440 V470 M510 440 V470 M550 440 V470 M590 440 V470 M630 440 V470 M670 440 V470 M710 440 V470 M750 440 V470 M790 440 V470 M830 440 V470"/>
+  </g>
+  <!-- sign -->
+  <rect x="380" y="510" width="440" height="80" rx="12" fill="#0a0a0a"/>
+  <g transform="translate(398 520) scale(0.12)"><path fill="#ffffff" d="M200 40 C140 0 60 10 40 90 C20 170 50 230 80 290 C100 340 100 420 120 460 C135 490 165 480 170 440 C178 390 185 350 200 350 C215 350 222 390 230 440 C235 480 265 490 280 460 C300 420 300 340 320 290 C350 230 380 170 360 90 C340 10 260 0 200 40 Z"/></g>
+  <text x="460" y="545" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#ffffff">FAMILY DENTAL CLINIC</text>
+  <text x="460" y="574" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#9fc2bc">Dr. Akash Agarwal · Kotdwar</text>
+  <!-- ground floor: door + window -->
+  <rect x="380" y="610" width="200" height="160" rx="6" fill="#bcd6d1" stroke="#173b38" stroke-width="4"/>
+  <rect x="640" y="610" width="180" height="160" rx="6" fill="#2f6f6a" stroke="#173b38" stroke-width="4"/>
+  <circle cx="800" cy="695" r="6" fill="#ffffff"/>
+  <!-- road -->
+  <rect x="0" y="770" width="1200" height="130" fill="#d9dedb"/>
+  <path d="M0 835 H1200" stroke="#ffffff" stroke-width="6" stroke-dasharray="50 40"/>
+  <!-- plants -->
+  <g fill="#5e9c79"><circle cx="250" cy="730" r="40"/><circle cx="950" cy="730" r="40"/></g>
+  <g fill="#8a6a4f"><rect x="238" y="740" width="24" height="32"/><rect x="938" y="740" width="24" height="32"/></g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs><linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f4ef"/><stop offset="1" stop-color="#e3ebe8"/></linearGradient></defs>
+  <rect width="1200" height="900" fill="url(#wall)"/>
+  <rect x="0" y="680" width="1200" height="220" fill="#d7cfc3"/>
+  <path d="M0 680 H1200" stroke="#bfb5a7" stroke-width="4"/>
+  <!-- wall logo -->
+  <rect x="420" y="130" width="360" height="150" rx="18" fill="#0a0a0a"/>
+  <g transform="translate(445 152) scale(0.21)"><path fill="#ffffff" d="M200 40 C140 0 60 10 40 90 C20 170 50 230 80 290 C100 340 100 420 120 460 C135 490 165 480 170 440 C178 390 185 350 200 350 C215 350 222 390 230 440 C235 480 265 490 280 460 C300 420 300 340 320 290 C350 230 380 170 360 90 C340 10 260 0 200 40 Z"/></g>
+  <text x="545" y="200" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#ffffff">FAMILY</text>
+  <text x="545" y="245" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#ffffff">DENTAL</text>
+  <!-- reception desk -->
+  <rect x="330" y="440" width="540" height="250" rx="20" fill="#ffffff" stroke="#173b38" stroke-width="5"/>
+  <rect x="330" y="440" width="540" height="40" rx="14" fill="#2f6f6a"/>
+  <rect x="560" y="380" width="120" height="70" rx="8" fill="#173b38"/>
+  <rect x="610" y="450" width="20" height="10" fill="#173b38"/>
+  <!-- waiting chairs -->
+  <g fill="#9fc2bc" stroke="#173b38" stroke-width="4">
+    <rect x="60" y="560" width="110" height="80" rx="16"/><rect x="60" y="490" width="110" height="80" rx="16"/>
+    <rect x="1030" y="560" width="110" height="80" rx="16"/><rect x="1030" y="490" width="110" height="80" rx="16"/>
+  </g>
+  <g stroke="#173b38" stroke-width="6"><path d="M80 640 V690 M150 640 V690 M1050 640 V690 M1120 640 V690"/></g>
+  <!-- plant -->
+  <rect x="230" y="600" width="70" height="90" rx="10" fill="#c9773b"/>
+  <g fill="#5e9c79"><ellipse cx="265" cy="560" rx="30" ry="60"/><ellipse cx="230" cy="580" rx="22" ry="48" transform="rotate(-25 230 580)"/><ellipse cx="300" cy="580" rx="22" ry="48" transform="rotate(25 300 580)"/></g>
+  <!-- window light -->
+  <rect x="900" y="150" width="200" height="260" rx="12" fill="#cfe3df" stroke="#173b38" stroke-width="4"/>
+  <path d="M1000 150 V410 M900 280 H1100" stroke="#173b38" stroke-width="4"/>
+</svg>

@@ -1,0 +1,8 @@
+:HL["/_next/static/chunks/3fowbq4_0c9qn.css","style"]
+:HL["/_next/static/media/open_sauce_one_400-s.p.26dyhjac0vffh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/open_sauce_one_700-s.p.2v3zjyald3yw2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+4:[["children",{"s":"__PAGE__","h":160}]]
+3:[["children",{"s":{"n":"slug","t":"d","k":"toothache-relief-what-helps","s":[]},"h":65632,"c":"$Q4"}]]
+2:[["children",{"s":"blog","h":131136,"c":"$Q3"}]]
+1:[["children",{"s":"(en)","h":131072,"c":"$Q2"}]]
+0:{"b":"rt0DQo_WsnAl1J8bjVhKq","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
