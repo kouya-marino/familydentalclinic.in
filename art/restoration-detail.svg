@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d6f6a"/><stop offset="1" stop-color="#173634"/>
+    </linearGradient>
+    <linearGradient id="enamel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d4e2de"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="30" stdDeviation="30" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2">
+    <circle cx="450" cy="450" r="260"/><circle cx="450" cy="450" r="340"/>
+  </g>
+  <g transform="translate(250 190)" filter="url(#shadow)">
+    <path fill="url(#enamel)" d="M200 40 C140 0 60 10 40 90 C20 170 50 230 80 290 C100 340 100 420 120 460 C135 490 165 480 170 440 C178 390 185 350 200 350 C215 350 222 390 230 440 C235 480 265 490 280 460 C300 420 300 340 320 290 C350 230 380 170 360 90 C340 10 260 0 200 40 Z"/>
+    <path d="M60 175 C140 205 260 205 340 175" fill="none" stroke="#9fc2bc" stroke-width="8" stroke-dasharray="2 16" stroke-linecap="round"/>
+    <path fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" d="M95 110 C110 70 150 60 180 75"/>
+  </g>
+  <g fill="#ffffff"><path d="M720 200 l8 24 24 8 -24 8 -8 24 -8 -24 -24 -8 24 -8z"/></g>
+</svg>

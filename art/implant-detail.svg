@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef2ef"/><stop offset="1" stop-color="#c6dad6"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6f7c7b"/><stop offset="0.45" stop-color="#e3e9e8"/><stop offset="1" stop-color="#7d8a89"/>
+    </linearGradient>
+    <linearGradient id="enamel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dde8e4"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#1d4440" flood-opacity="0.25"/></filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <circle cx="450" cy="450" r="330" fill="#ffffff" opacity="0.45"/>
+  <g filter="url(#shadow)">
+    <!-- crown -->
+    <path fill="url(#enamel)" d="M300 230 C300 160 360 130 450 150 C540 130 600 160 600 230 C600 300 570 340 540 360 L360 360 C330 340 300 300 300 230 Z"/>
+    <!-- abutment -->
+    <rect x="400" y="360" width="100" height="50" rx="8" fill="url(#metal)"/>
+    <!-- screw body -->
+    <path fill="url(#metal)" d="M380 410 L520 410 L505 700 Q450 760 395 700 Z"/>
+    <g stroke="#56615f" stroke-width="6" stroke-linecap="round" opacity="0.55">
+      <path d="M378 450 L522 470"/><path d="M380 500 L520 520"/><path d="M383 550 L517 570"/>
+      <path d="M387 600 L513 620"/><path d="M391 650 L509 668"/>
+    </g>
+  </g>
+  <path d="M360 190 C380 170 410 165 430 172" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+</svg>
